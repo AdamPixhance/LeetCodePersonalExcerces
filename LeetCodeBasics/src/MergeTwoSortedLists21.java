@@ -44,9 +44,6 @@ public class MergeTwoSortedLists21 {
 		}
 		System.out.println("]");
 
-		// creating empty list for null testing
-		ListNode emptyList = new ListNode();
-
 		// running the solution and printing the output
 		ListNode Result = Solution.mergeTwoLists(null, null);
 		System.out.print("Solution = [");
